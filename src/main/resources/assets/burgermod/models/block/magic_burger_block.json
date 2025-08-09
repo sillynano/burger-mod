@@ -1,6 +1,8 @@
 {
-  "parents": "minecraft:block/cube_all",
+  "parent": "minecraft:block/orientable",
   "textures": {
-    "all": "burgermod:block/magic_burger_block"
+    "front": "burgermod:block/magic_burger_block_front",
+    "side": "burgermod:block/magic_burger_block_side",
+    "top": "burgermod:block/magic_burger_block_top"
   }
 }
