@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "burgermod",
+	"version": "${version}",
+	"name": "Burger Mod",
+	"description": "an awesome minecraft that added burgers (yippe) ",
+	"authors": [
+		"sillynano",
+        "sillyangel"
+	],
+	"contact": {
+		"homepage": "https://sillynano.xyz/",
+		"sources": "https://github.com/sillynano/burger-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/burgermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.sillynano.BurgerMod"
+		],
+		"fabric-datagen": [
+			"xyz.sillynano.BurgerModDataGenerator"
+		],
+        "client": [
+          "xyz.sillynano.BurgerModClient"
+        ]
+	},
+	"mixins": [
+		"burgermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
