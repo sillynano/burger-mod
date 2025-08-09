@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "burgermod:block/magic_burger_block"
+    }
+  }
+}

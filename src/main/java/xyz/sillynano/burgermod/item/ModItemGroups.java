@@ -13,21 +13,24 @@ import xyz.sillynano.burgermod.BurgerMod;
 public class ModItemGroups {
     public static final ItemGroup BURGER_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(BurgerMod.MOD_ID, "burger_item_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.Burger))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BURGER))
                     .displayName(Text.translatable("itemgroup.burgermod.burger_item_group"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.Burger);
-                        entries.add(ModItems.Raw_Burger);
+                        entries.add(ModItems.BURGER);
+                        entries.add(ModItems.RAW_BURGER);
 
                     }).build());
 
     public static final ItemGroup BURGER_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(BurgerMod.MOD_ID, "burger_block_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.Burger_Block))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BURGER_BLOCK))
                     .displayName(Text.translatable("itemgroup.burgermod.burger_block_group"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.Burger_Block);
-                        entries.add(ModBlocks.Raw_Burger_Block);
+                        entries.add(ModBlocks.BURGER_BLOCK);
+                        entries.add(ModBlocks.RAW_BURGER_BLOCK);
+                        entries.add(ModBlocks.BURGER_ORE);
+                        entries.add(ModBlocks.BURGER_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.MAGIC_BURGER_BLOCK);
                     }).build());
 
 

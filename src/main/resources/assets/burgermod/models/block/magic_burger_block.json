@@ -1,0 +1,6 @@
+{
+  "parents": "minecraft:block/cube_all",
+  "textures": {
+    "all": "burgermod:block/magic_burger_block"
+  }
+}

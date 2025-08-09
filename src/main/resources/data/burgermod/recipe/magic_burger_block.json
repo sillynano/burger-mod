@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "#": {
+      "item": "burgermod:burger_block"
+    },
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "YXY",
+    "Y Y"
+  ],
+  "result": {
+    "count": 1,
+    "id": "burgermod:magic_burger_block"
+  }
+}
