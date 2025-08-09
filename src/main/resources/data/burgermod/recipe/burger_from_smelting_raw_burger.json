@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "burger",
+  "ingredient": {
+    "item": "burgermod:raw_burger"
+  },
+  "result": {
+    "id": "burgermod:burger"
+  }
+}

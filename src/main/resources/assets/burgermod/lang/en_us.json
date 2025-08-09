@@ -1,4 +1,10 @@
 {
   "item.burgermod.burger": "Burger",
-  "item.burgermod.raw_burger": "Raw Burger"
+  "item.burgermod.raw_burger": "Raw Burger",
+
+  "block.burgermod.burger_block": "Burger Block",
+  "block.burgermod.raw_burger_block": "Raw Burger Block",
+
+  "itemgroup.burgermod.burger_item_group": "Burger Items",
+  "itemgroup.burgermod.burger_block_group": "Burger Blocks"
 }

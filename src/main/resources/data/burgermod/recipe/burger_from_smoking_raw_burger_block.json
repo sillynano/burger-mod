@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "group": "burger",
+  "ingredient": {
+    "item": "burgermod:raw_burger_block"
+  },
+  "result": {
+    "id": "burgermod:burger",
+    "count": 9
+  }
+}

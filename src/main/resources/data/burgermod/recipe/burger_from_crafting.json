@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "C": {
+      "item": "minecraft:yellow_dye"
+    },
+    "K": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " # ",
+    "KBC",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "burgermod:burger"
+  }
+}

@@ -5,7 +5,6 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -16,6 +15,12 @@ import xyz.sillynano.burgermod.BurgerMod;
 public class ModBlocks {
 
     public static final Block Burger_Block = registerBlock("burger_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+
+    public static final Block Raw_Burger_Block = registerBlock("raw_burger_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
@@ -36,6 +41,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(ModBlocks.Burger_Block);
+            entries.add(ModBlocks.Raw_Burger_Block);
         });
     }
 }
