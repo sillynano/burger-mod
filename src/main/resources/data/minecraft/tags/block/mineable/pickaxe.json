@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "burgermod:burger_ore",
+    "burgermod:burger_deepslate_ore",
+    "burgermod:burger_block",
+    "burgermod:raw_burger_block"
+  ]
+}

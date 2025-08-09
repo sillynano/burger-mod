@@ -4,6 +4,8 @@
 
   "block.burgermod.burger_block": "Burger Block",
   "block.burgermod.raw_burger_block": "Raw Burger Block",
+  "block.burgermod.burger_ore": "Burger Ore",
+  "block.burgermod.burger_deepslate_ore": "Burger Deepslate Ore",
 
   "itemgroup.burgermod.burger_item_group": "Burger Items",
   "itemgroup.burgermod.burger_block_group": "Burger Blocks"

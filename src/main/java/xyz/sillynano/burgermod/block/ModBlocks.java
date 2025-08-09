@@ -3,6 +3,7 @@ package xyz.sillynano.burgermod.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -10,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import xyz.sillynano.burgermod.BurgerMod;
 
 public class ModBlocks {
@@ -25,6 +27,14 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+
+    public static final Block BURGER_ORE = registerBlock("burger_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BURGER_DEEPSLATE_ORE = registerBlock("burger_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -42,6 +52,10 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(ModBlocks.Burger_Block);
             entries.add(ModBlocks.Raw_Burger_Block);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+            entries.add(ModBlocks.BURGER_ORE);
+            entries.add(ModBlocks.BURGER_DEEPSLATE_ORE);
         });
     }
 }
