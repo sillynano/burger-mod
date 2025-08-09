@@ -3,6 +3,7 @@
   "values": [
     "burgermod:burger_ore",
     "burgermod:burger_block",
-    "burgermod:raw_burger_block"
+    "burgermod:raw_burger_block",
+    "burgermod:magic_burger_block"
   ]
 }

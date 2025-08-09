@@ -8,6 +8,13 @@
   "block.burgermod.burger_deepslate_ore": "Burger Deepslate Ore",
   "block.burgermod.magic_burger_block": "Griller",
 
+  "tooltip.burgermod.magic_burger_block": "§eShift§r for more info!",
+  "tooltip.burgermod.magic_burger_block.shift_down": "Drop a steak on top to convert it to a §eBurger§r!",
+  "tooltip.burgermod.burger_block": "You should use this for a §eGriller§r!",
+  "tooltip.burgermod.raw_burger_block": "You should smelt this in a furnace to get a §eBurger Block§r!",
+  "tooltip.burgermod.raw_burger": "Yikes, you should cook this in a furnace to get a §eBurger§r!",
+  "tooltip.burgermod.burger": "A delicious Burger, yum!!",
+
   "itemgroup.burgermod.burger_item_group": "Burger Items",
   "itemgroup.burgermod.burger_block_group": "Burger Blocks"
 }
