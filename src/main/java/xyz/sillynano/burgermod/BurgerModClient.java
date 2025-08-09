@@ -1,4 +1,4 @@
-package xyz.sillynano;
+package xyz.sillynano.burgermod;
 
 import net.fabricmc.api.ClientModInitializer;
 

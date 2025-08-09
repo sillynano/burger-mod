@@ -17,13 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.sillynano.BurgerMod"
+          "xyz.sillynano.burgermod.BurgerMod"
 		],
 		"fabric-datagen": [
-			"xyz.sillynano.BurgerModDataGenerator"
+          "xyz.sillynano.burgermod.BurgerModDataGenerator"
 		],
         "client": [
-          "xyz.sillynano.BurgerModClient"
+          "xyz.sillynano.burgermod.BurgerModClient"
         ]
 	},
 	"mixins": [

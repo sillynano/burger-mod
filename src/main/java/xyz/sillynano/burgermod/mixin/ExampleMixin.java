@@ -1,4 +1,4 @@
-package xyz.sillynano.mixin;
+package xyz.sillynano.burgermod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
